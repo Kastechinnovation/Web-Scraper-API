@@ -24,7 +24,7 @@ This is a Web Scraper API designed to solve business challenges like aggregating
 
 1. Clone the repository:
    ```bash
-   git clone 
+   git clone https://github.com/Kastechinnovation/Web-Scraper-API
    cd web-scraper-api
 
 2. Install dependencies:
