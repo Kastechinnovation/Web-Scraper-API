@@ -1,0 +1,34 @@
+web-scraper-api/
+│
+├── src/
+│   ├── api/
+│   │   ├── main.py            # FastAPI application
+│   │   ├── routes.py          # API route definitions
+│   │   ├── scheduler.py       # Task scheduling logic
+│   │   └── scraper.py         # Core scraping logic
+│   │
+│   ├── models/
+│   │   └── database.py        # Database connection and models
+│   │
+│   ├── utils/
+│   │   ├── notifications.py   # Email notification logic
+│   │   ├── selectors.json     # JSON file for platform-specific scraping selectors
+│   │   └── config.py          # App configuration settings
+│   │
+│   └── templates/
+│       └── email_template.html  # Email template for notifications
+│
+├── tests/
+│   ├── test_scraper.py        # Unit tests for scraping
+│   ├── test_routes.py         # Unit tests for API routes
+│   └── test_scheduler.py      # Unit tests for scheduling
+│
+├── .env.example               # Example environment variables
+├── .gitignore                 # Git ignore file
+├── docker-compose.yml         # Docker Compose configuration for local dev
+├── Dockerfile                 # Dockerfile for deployment
+├── LICENSE                    # License file
+├── poetry.lock                # Poetry lock file
+├── pyproject.toml             # Poetry configuration file
+├── README.md                  # Project readme
+└── requirements.txt           # Pip requirements (if not using Poetry)
